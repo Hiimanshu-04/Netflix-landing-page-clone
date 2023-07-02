@@ -1,0 +1,570 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    html,body{
+    height: 100%;
+    width: 100%;
+    }
+    #main{
+        background-color: black;
+    }
+    #page1 {
+        height: 100vh;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 15%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0.8) 100%), url(./images/header-image.png);
+        background-size: cover;
+        background-position: center;
+        border-bottom: 8px solid #232323;
+        
+      }
+      
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 18px;
+        margin: 0 13%;
+    }
+    nav>img{
+        width: 150px;
+    }
+    .buttons>button{
+        border: 0;
+        outline: 0;
+        background-color: #db0001;
+        color: white;
+        padding: 5px 20px;
+        font-size: 15px;
+        border-radius: 4px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    #button1{
+        display: inline-flex;
+       align-items: center;
+       background: rgba(0, 0, 0, 0) 60%;
+       border: 0.1px solid rgb(118, 118, 118);
+       font-size: 15px;
+       padding: 3px 10px;
+       margin: 9px;
+    }
+    
+    
+    
+    #arrow{
+        width: 10px;
+        margin-left: 10px;
+    }
+    svg{
+        margin-right: 10px;
+    }
+    #page1-block{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        margin-top: 100px;
+        width: 65%;
+        color: white;
+        
+    }
+    #page1-block>h1{
+        font-size: 50px;
+        font-weight: 600;
+        letter-spacing: -3px;
+        color: white;
+        line-height: 70px;
+        font-family: Helvetica, sans-serif;
+        margin: 0;
+    }
+    #page1-block>h3{
+        font-size: 25px;
+        font-weight: 400;
+        color: white;
+        line-height: 70px;
+        margin-bottom: 0px;
+        padding: 0;
+        font-family: Helvetica, sans-serif;
+        
+    }
+    #page1-block>p{
+        margin-top: 0;
+    }
+    #form{
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        overflow: hidden;
+    }
+    #form>input{
+        background: rgba(0, 0, 0, 0.6) 100%;
+        flex: 0.8;
+        border: 0.1px solid rgb(118, 118, 118);
+        border-radius: 4px;
+        outline: 0;
+        padding: 15px 30px;
+        margin-left: 15%;
+        color: white;
+    }
+    #form>button{
+        margin-left: 10px;
+        background: #db0001;
+        border: 0;
+        outline: 0;
+        color: white;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        padding: 15px 30px;
+    }
+    /*-----------------------page2 content1----------------------*/
+    #content-1{
+        padding: 70px 0px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 8px solid #232323;
+    
+    }
+    #text1{
+        color: white;
+        text-align: left;
+    }
+    #text1>h2{
+        font-size: 40px;
+        font-weight: 800;
+        color: white;
+    }
+    #text1>h4{
+        padding-top: 10px;
+        color: white;
+    }
+    
+    #content-1>img{
+        width: 37%;
+    }
+    /*-----------------------page2 content2----------------------*/
+    #content-2{
+        padding: 70px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 8px solid #232323;
+    }
+    #text2{
+        color: white;
+        text-align: left;
+    }
+    #text2>h2{
+        font-size: 40px;
+        font-weight: 800;
+        color: white;
+    }
+    #text2>h4{
+        padding-top: 10px;
+        color: white;
+    }
+    
+    #content-2>img{
+        width: 37%;
+    }
+    
+    /*-----------------------page2 content3----------------------*/
+    #content-3{
+        padding: 70px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 8px solid #232323;
+    }
+    #text3{
+        color: white;
+        text-align: left;
+    }
+    #text3>h2{
+        font-size: 40px;
+        font-weight: 800;
+        color: white;
+    }
+    #text3>h4{
+        padding-top: 10px;
+        color: white;
+    }
+    
+    #content-3>img{
+        width: 37%;
+    }
+    
+    /*-----------------------page2 content4----------------------*/
+    #content-4{
+        padding: 70px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 8px solid #232323;
+    }
+    #text4{
+        color: white;
+        text-align: left;
+    }
+    #text4>h2{
+        font-size: 40px;
+        font-weight: 800;
+        color: white;
+    }
+    #text4>h4{
+        padding-top: 10px;
+        color: white;
+    }
+    
+    #content-4>img{
+        width: 37%;
+    }
+    
+    /*-----------------------page3----------------------*/
+    #faq{
+        
+        color: white;
+        padding: 50px 12%;
+        text-align: center;
+    }
+    #faq>h2{
+        font-weight: 800;
+        font-size: 40px;
+    }
+    
+    .accordion{
+        margin: 0px auto;
+        margin-top: 0;
+        width: 100%;
+        max-width: 850px;
+    }
+    .accordion li{
+        list-style: none;
+        width: 100%;
+        padding: 5px;
+    
+    }
+    .accordion li label{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        font-size: 22px;
+        font-weight: 500;
+        background: #2D2D2D;
+        margin-bottom: 2px;
+        cursor: pointer;
+        position: relative;
+    }
+    label::after{
+        content: '+';
+        font-size: 34px;
+        position: absolute;
+        right: 20px;
+        transition: transform 0.5s;
+    }
+    input[type="radio"]{
+        display: none;
+    }
+    .accordion .content{
+        background:#2D2D2D;
+        text-align: left;
+        padding: 0 20px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s, padding 0.5s;
+    
+    }
+    .accordion input[type="radio"]:checked +label+ .content{
+        max-height: 600px;
+        padding: 30px 20px;
+    }
+    .accordion input[type="radio"]:checked +label::after{
+        transform: rotate(135deg);
+    }
+    /*-----------------page3 footer-------------------------*/
+    #footer{
+        border-bottom: 8px solid #232323;
+    }
+    #footer>p{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        margin-top: 0;
+    }
+    #form2{
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 70px;
+        overflow: hidden;
+    }
+    #form2>input{
+        background: rgba(0, 0, 0, 0.6) 100%;
+        flex: 0.5;
+        border: 0.1px solid rgb(118, 118, 118);
+        border-radius: 4px;
+        outline: 0;
+        padding: 15px 30px;
+        margin-left: 27%;
+        
+        color: white;
+    }
+    #form2>button{
+        margin-left: 10px;
+        background: #db0001;
+        border: 0;
+        outline: 0;
+        color: white;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        padding: 15px 30px;
+    }
+    /*----------------bottom------------------------------*/
+    #bottom{
+        padding: 50px 15% 10px;
+        color: #777;
+    
+    }
+    #bottom>h6{
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    .rows{
+        display: flex;
+    }
+    #bottom .col{
+        flex-basis: 25%;
+        flex-grow: 1;
+        margin-bottom: 20px;
+    
+    }
+    #bottom .col a{
+        display: block;
+        text-decoration: none;
+        color: #777;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    #button3{
+        display: inline-flex;
+        color: white;
+       align-items: center;
+       background: rgba(0, 0, 0, 0) 60%;
+       border: 0.1px solid rgb(118, 118, 118);
+       border-radius: 4px;
+       font-size: 15px;
+       padding: 3px 10px;
+       margin: 9px;
+    }
+    #ending{
+        margin: 10px;
+        font-size: 13px;
+    }
+/* Mobile Styles */
+@media (max-width: 642px)  {
+    nav{
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 100%;
+        padding: 20px 0;
+    }
+    nav>img{
+        width: 89px;
+        height: 24px;
+        margin-left: 0;
+        margin-right: 10px;
+        padding-left: 0;
+    }
+    #buttons{
+        display: flex;
+        justify-content: center;
+        width: 10px;
+    }
+    #button1{
+        flex: 0.2;
+        margin: 0;
+    
+    }
+    #button2{
+        flex: 0.2;
+    }
+
+    #page1-block {
+      width: 342px;
+    }
+  
+    #page1-block > h1 {
+        text-align: center;
+        width: 342px;
+      font-size: 32px;
+      line-height: 50px;
+    }
+  
+    #page1-block > h3 {
+      font-size: 20px;
+      line-height: 40px;
+    }
+    #form{
+        display: inline-flex;
+        flex-direction: column;
+    }
+    #form>input{
+        height: 49px;
+        width: 249px;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    #form>button{
+        margin-top: 5%;
+        flex-direction: row;
+        justify-content: center;
+        line-height: 1;
+        position: relative;
+    }
+    /*------------page2 content 1--------------*/
+    #content-1{
+        display: flex;
+        flex-direction: column;
+    }
+    #text1{
+        text-align: center;
+    }
+    #text1>h2{
+        margin: 0 20px;
+        text-align: center;
+        width: 342px;
+        font-size: 32px;
+    }
+    #text1>h4{
+        width: 342px;
+        margin: 0 20px;
+        font-size: 18px;
+    }
+    #content-1>img{
+        width: 342px;
+        height: 246px;
+    }
+    /*------------page2 content 2--------------*/
+    #content-2{
+        display: flex;
+        flex-direction: column;
+    }
+    #text2{
+        text-align: center;
+    }
+    #text2>h2{
+        margin: 0 20px;
+        text-align: center;
+        width: 342px;
+        font-size: 32px;
+    }
+    #text2>h4{
+        width: 342px;
+        margin: 0 20px;
+        font-size: 18px;
+    }
+    #content-2>img{
+        width: 342px;
+        height: 246px;
+    }
+    /*------------page2 content 3--------------*/
+    #content-3{
+        display: flex;
+        flex-direction: column;
+    }
+    #text3{
+        text-align: center;
+    }
+    #text3>h2{
+        margin: 0 20px;
+        text-align: center;
+        width: 342px;
+        font-size: 32px;
+    }
+    #text3>h4{
+        width: 342px;
+        margin: 0 20px;
+        font-size: 18px;
+    }
+    #content-3>img{
+        width: 342px;
+        height: 246px;
+    }
+    /*------------page2 content 4--------------*/
+    #content-4{
+        display: flex;
+        flex-direction: column;
+    }
+    #text4{
+        text-align: center;
+    }
+    #text4>h2{
+        margin: 0 20px;
+        text-align: center;
+        width: 342px;
+        font-size: 32px;
+    }
+    #text4>h4{
+        width: 342px;
+        margin: 0 20px;
+        font-size: 18px;
+    }
+    #content-4>img{
+        width: 342px;
+        height: 246px;
+    }
+    /*------------------page3-------------------------*/
+ .accordion{
+    text-align: left;
+ }   
+
+ #footer{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    padding: 0 24px;
+ }
+ #footer>p{
+    width: 342px;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 24px;
+    margin: 0 19%;
+ }
+ #form2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 342px;
+    padding: 0 24px;
+}
+#form2>input{
+    height: 49px;
+    width: 342px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+#form2>button{
+    margin-top: 5%;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 1;
+    position: relative;
+}
+}
