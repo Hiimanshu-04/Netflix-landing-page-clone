@@ -529,6 +529,10 @@
  .accordion{
     text-align: left;
  }   
+.accordion label{
+    font-size: small;
+ }
+
 
  #footer{
     display: inline-flex;
