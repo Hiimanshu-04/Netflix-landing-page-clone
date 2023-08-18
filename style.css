@@ -10,6 +10,7 @@
     }
     #main{
         background-color: black;
+        overflow-x: hidden;
     }
     #page1 {
         height: 100vh;
